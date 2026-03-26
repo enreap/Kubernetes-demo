@@ -1,0 +1,10 @@
+# Use official Apache HTTPD image as base
+FROM httpd:latest
+
+# Copy custom HTML content (optional)
+COPY index.html /usr/local/apache2/htdocs/index.html
+
+# Expose default HTTP port
+EXPOSE 80
+
+# Start Apache is handled by the base image

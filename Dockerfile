@@ -1,4 +1,3 @@
-# Use official Nginx image as base
 FROM nginx:latest
 
 # Copy custom HTML content (optional)
